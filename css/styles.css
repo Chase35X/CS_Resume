@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    border-color: black;
+    border-width: 5px;
+}
+
+.name{
+    text-align: left;
+    float: left;
+    width: 70%;
+}
+
+#photo {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#BU {
+    float: left;
+    width: 40%;
+}
+
+#description { 
+    float: left;
+    width: 70%;
+}
+
+#contactInfo{
+    float: right;
+}
+
+.contact {
+    float: right;
+}
+
+#linked {
+    padding-left: 10%;
+}
+
+#test {
+    border: 5px solid black;
+}
+
+
+
+
