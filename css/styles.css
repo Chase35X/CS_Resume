@@ -2,7 +2,48 @@
     box-sizing: border-box;
 }
 
-.heading {
+body > div {
+    clear: both;
+}
+
+.introduction {
+    max-height: 25%;
+}
+
+.introduction > div {
+    width: 33.33%;
+    float: left;
+    border: 5px solid black;  
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+.contact > div {
+    text-align: right;
+}
+
+.langproj > div {
+    float: left;
+}
+
+#lang {
+    width: 25%;
+    border: 5px solid black;  
+}
+
+#project {
+    width: 75%;
+    border: 5px solid black;  
+}
+
+/* .introduction {
     border-color: black;
     border-width: 5px;
 }
@@ -43,7 +84,7 @@
 
 #test {
     border: 5px solid black;
-}
+} */
 
 
 
