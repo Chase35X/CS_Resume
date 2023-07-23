@@ -1,50 +1,72 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Chase Lenhart</title>
-        <link rel="stylesheet" href="/CS_Resume/css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <body>
+    
 
-        <!-- Heading - Introduction -->
-        <div class = "introduction">
+    
+    <link rel="stylesheet" href="/html/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/html/css/websiteBootStrapCSS.css">
+  </head>
+<body>
+
+  <header>
+    <nav>
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <div class="navbar-brand pull-left">
+
+            <img class = "rounded-circle pull-left" src="https://media.licdn.com/dms/image/D4E03AQE2v8YLnnD9KQ/profile-displayphoto-shrink_800_800/0/1677370734571?e=2147483647&v=beta&t=8gAql5R6dHaDwGc1HXh4WwyXsAhfpDZ1BZ0zJL8s6E0" alt="Image of Chase Lenhart">
+
+            <a href="websiteBootStrap.html"><h1 class="name">Chase Lenhart</h1></a>
+            <h3>
+              <span class = "currentSchool">Studying Business and Computer Science at Boston University</span>
+            </h3>
+
+            <p class = "description">
+              <span>
+                Innovative and business minded student looking for opportunities in all fields. Experienced in multiple business models, programming languages, and occupational structures.
+              </span>
+            </p>
+          </div>
+
+          <p id = "contactInfo" class = "pull-right">
+            <span>Contact Info (Click Me!): </span><br>
+
+            <a href = "https://www.linkedin.com/in/chase-lenhart-341b57267/" target="_blank">
+              <img class = "pull-right" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt = "LinkedIn"> 
+            </a>
+
+            <br>
+
+            <a href = "https://github.com/Chase35X" target="_blank">
+              <img class = "pull-right" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt = "GitHub"> 
+            </a>
+
+            <br>
+
+            <a href = "https://mail.google.com/mail/u/0/?pli=1#inbox?compose=DXDwSWwznjGcnNpqRcXsGFfDNHNRsqhRqSljgDMPRHFjzSnKzCmTdVLNWZvXwGCLvHWRnJqWxxDSnsThCxcHNfwXkJGwRTskrGSnKnfMrhjVkXSFMrVfHDpL" target="_blank">
+              <img id = "gmail" class = "pull-right" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt = "Gmail"> 
+            </a>
         
-            <div>
-                <img id = "photo" src="https://media.licdn.com/dms/image/D4E03AQE2v8YLnnD9KQ/profile-displayphoto-shrink_800_800/0/1677370734571?e=2147483647&v=beta&t=8gAql5R6dHaDwGc1HXh4WwyXsAhfpDZ1BZ0zJL8s6E0" alt="Chase Lenhart">
-            </div>
-            
-        
-            <div>
-                <div class = "name">
-                Chase Lenhart
-                </div>
 
-                <div id = "BU">
-                    Boston University 2027 - Studying Business and Computer Science
-                </div>
-
-                <div id = "description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-            </div>
-
-
-            <div class = "contact">
-                <div>856-651-8227</div>
-                <div>lenhartchase991@gmail.com</div>
-                <div> <a id = "linked" href = "https://www.linkedin.com/in/chase-lenhart-341b57267/" title = "LinkedIn Link" target = "_blank">LinkedIn</a> </div>
-                <div> <a id = "github" href = "https://github.com/Chase35X" title = "GitHub Link" target = "_blank">GitHub</a> </div>
-            </div>
+          </p>
 
         </div>
 
-        <div class = "langproj">
+      </nav>
+      </header>
 
-            <div id = "lang">
-                <div>Languages</div>
+        <div class="container-fluid pull-left">
+          <div class="row">
+
+            <div class="col-lg-4 lang">
+
+              <div class = "section-title">Languages</div>
                 <div>
                     <ul>
                         <li>
@@ -87,11 +109,14 @@
                             </ul>
                         </li>
                     </ul>
+
                 </div>
+
             </div>
 
-            <div id = "project">
-                <div>Personal Projects</div>
+            <div class="col-lg-8 proj">
+
+              <div class = "section-title">Personal Projects</div>
                 <div>
                     <ul>
                         <li>
@@ -123,7 +148,7 @@
                         <li>
                             Discord Random Image Bot
                             <ul>
-                                <li></li>
+                                <li>In my close friends discord server, I decided to make a funny discord bot which would send random sentences and photos of me and my friends to the discord chat. This program runs off of a command system and photos can be added to the database of photos through a command itself. This was a fun personal project which can be used in any discord server.</li>
                                 <li><a href = "https://github.com/Chase35X/Discord-Imager" title = "Discord Imager Bot GitHub Page" target="_blank">Discord Imager Bot</a></li>
                             </ul>
                         </li>
@@ -131,25 +156,155 @@
                         <li>
                             Retail Recap Flip &amp; Drop Notification System
                             <ul>
-                                <li></li>
-                                <li></li>
+                                <li>Retail Recap was a consulting service I ran for around 3 years in high school. It consisted of alerting subscribers of profitable items you can buy and flip. Alongside this, there was also products that would "drop" or release at a set time which were profitable as well. This Python file, which uses the Discord API, was used to spread information, via embeds, quickly to these subscribers. The program uses webhooks mainly as a way to mainstream information.</li>
+                                <li><a href = "https://github.com/Chase35X/Retail-Recap-Flip-Drop-System" title = "Retail Recap Flip & Drop Notification System" target="_blank">Retail Recap Notification System</a></li>
                             </ul>
                         </li>
 
                         <li>
                             Retail Recap Alert System
                             <ul>
-                                <li></li>
-                                <li></li>
+                                <li>Sometimes when operating Retail Recap, quick notifications or alerts would need to be sent out to subscribers. Most of the time the program above (Retail Recap Flip &amp; Drop Notification System) would take too long to send quick alerts. This program incorporated Discord API commands in order to send quick embedded messages to subscribers.</li>
+                                <li><a href = "https://github.com/Chase35X/Retail-Recap-Quick-Alert" title = "Retail Recap Quick Alert System" target="_blank">Retail Recap Quick Alert System</a></li>
                             </ul>
                         </li>
                     </ul>
 
                     * = Made on <a href = "https://code.org/educate/applab" title = "Code.Org App Lab Home" target="_blank">Code.Org App Lab</a> 
-                </div> 
+                </div>
+
             </div>
+
+          </div>
+        </div>
+
+        <div class="container-fluid pull-left">
+
+          <div class="row">
+
+            <div class="col-lg-8 job">
+              <div class = "section-title">Job Experience</div>
+              <div>
+                <ul>
+                  <li>
+                    CEO and Founder of Retail Recap
+
+                    <ul>
+                      <li>
+                        Retail Recap was the first ever business I built from the ground up. RR (for short) was a subscription based consulting service which provided subscribers with information on items that they could flip for profit or "drop" information for products in which they could buy and sell for a profit. Under Retail Recap, I also started other smaller companies. To name a few, there were Retail Tracker, Stellar Setups, and Retail Setups. All companies were written in Python and used the Discord API. 
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    Human Resources / Administrator at <a href = "https://stellaraio.com/" title = "StellarAIO Homepage" target="_blank">StellarAIO</a>
+
+                    <ul>
+                      <li>
+                        StellarAIO is a retail based automated checkout software which became popular during the COVID-19 pandemic. In short, StellarAIO was selling software. Though I did not work as a software engineer for StellarAIO, I handled many things on the business end, and, with this, I learned lots of technical skills on the way. From customer service to strategy I learned what you truly need to make a product succeed. 
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    Coming Soon...
+
+                    <ul>
+                      <li>
+                        &#128064;
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4 school">
+              <div class = "section-title">School Experience</div>
+                <div>
+                    <ul>
+                        <li>
+                            Programming Honors
+
+                            <ul>
+                                <li>
+                                    This is the first introduction to programming course offered at my high school. The course used Java and introduced students to loops, conditionals, booleans, methods and more. I was awarded the highest GPA academic award for this class.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            AP Computer Science Principles
+
+                            <ul>
+                                <li>
+                                    CSP (for short) introduces students to front end development. This course was taught through Code.Org and the app lab that they offer. The course was written in JavaScript and introduced the basics of frontend development and a slight introduction to database management.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            AP Computer Science A
+
+                            <ul>
+                                <li>
+                                  CSA (for short) is the next step after Programming Honors (shown above). It uses more advanced topics like recursion, algorithms, and OOP. I was awarded the highest GPA academic award for this class as well.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+      <!-- <div class="container-fluid pull-left">
+
+          <div class="row">
+
+            <div class="col-lg-8 job">
+
+
+
+      </div> -->
+
+      
+      <footer class="page-footer">
+
+        <div class="container-fluid pull-right">
+
+          <div class="row footer">
+
+            <div class="col-lg-6 col-md-12">
+              <h5>Developed by Chase Lenhart using HTML, CSS, and Boostrap</h5>
+              <p>I appreciate you checking out my website! I hope you enjoyed.
+              </p>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+              <h5>Contact Me...</h5>
+              <p>Click 
+               <a href="#top">here</a> 
+                
+                to go to contact information.
+              </p>
+
+            </div>
+
+          </div>
+
 
         </div>
 
-    </body>
+      </footer>
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="/html/js/jquery-2.1.4.min.js"></script>
+  <script src="/html/js/bootstrap.min.js"></script>
+  <script src="/html/js/script.js"></script>
+</body>
 </html>
