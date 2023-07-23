@@ -1,90 +1,153 @@
-* {
-    box-sizing: border-box;
+body{
+	font-family: Georgia,Times,Times New Roman,serif; 
+    background-color: rgb(107, 138, 167);
 }
 
-body > div {
-    clear: both;
+.navbar-header {
+    background-color: rgb(125, 160, 190);
+    height: 250px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.introduction {
-    max-height: 25%;
-}
-
-.introduction > div {
-    width: 33.33%;
-    float: left;
-    border: 5px solid black;  
-}
-
-img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
-    width: auto;
+.navbar-brand > img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-top: -20px;
     border-radius: 50%;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
 }
 
-.contact > div {
-    text-align: right;
+#contactInfo {
+    margin-top: -35px;
 }
 
-.langproj > div {
-    float: left;
+#contactInfo span {
+    margin-right: 5px;
+    font-size: 1.5em;
 }
 
-#lang {
-    width: 25%;
-    border: 5px solid black;  
+#contactInfo img {
+    height: 50px;
+    width: 50px;
+    clear: right;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
-#project {
+#contactInfo #gmail {
+    width: 60px;
+}
+
+.navbar-brand p {
     width: 75%;
-    border: 5px solid black;  
+    max-height: 50px;
 }
 
-/* .introduction {
-    border-color: black;
-    border-width: 5px;
+.navbar-brand h3 {
+    margin-top: -10px;
 }
 
-.name{
-    text-align: left;
-    float: left;
-    width: 70%;
+.lang, .proj, .job, .school, .footer {
+    border: 2px solid black;  
 }
 
-#photo {
-    width: 300px;
-    height: 300px;
-    float: left;
+.navbar-header{
+    border-style: ridge;
+    border-radius: 5px;
 }
 
-#BU {
-    float: left;
-    width: 40%;
+.lang, .proj, .job, .school, .footer {
+    background-color: rgb(213, 233, 250);
 }
 
-#description { 
-    float: left;
-    width: 70%;
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
-#contactInfo{
-    float: right;
+.footer > div {
+    text-align: center;
 }
 
-.contact {
-    float: right;
+.section-title{
+    font-size: 1.5em;
 }
 
-#linked {
-    padding-left: 10%;
+.name {
+    color: white;
 }
 
-#test {
-    border: 5px solid black;
-} */
+.lang, .job, .footer {
+    border-style: outset;
+}
+
+.proj, .school {
+    border-style: inset;
+}
+
+@media (max-width: 885px){
+
+
+    .description {
+        font-size: 16px;
+        width: 5%;
+        float: left;
+    }
+
+    .navbar-brand > img {
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+        margin-top: -20px;
+        border-radius: 50%;
+        -moz-box-shadow: 0px 6px 5px #ccc;
+      -webkit-box-shadow: 0px 6px 5px #ccc;
+      box-shadow: 0px 6px 5px #ccc;
+      -moz-border-radius:190px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .currentSchool {
+        font-size: 20px;
+    }
+
+    #contactInfo {
+        font-size: 10px;
+        margin-top: 60px;
+
+    }
+
+    #contactInfo > span {
+        visibility: hidden;
+    }
+
+    #contactInfo img {
+        height: 25px;
+        width: 25px;
+        clear: right;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    #contactInfo #gmail {
+        width: 35px;
+    }
+}
+
+
 
 
 
