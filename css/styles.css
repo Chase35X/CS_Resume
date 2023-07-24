@@ -25,6 +25,22 @@ body{
   -moz-border-radius:190px;
 }
 
+.lang {
+    margin-left: 50px;
+}
+
+.proj {
+    margin-right: 25px;
+}
+
+.school {
+    margin-right: 50px;
+}
+
+.job {
+    margin-left: 25px;
+}
+
 #contactInfo {
     margin-top: 15px;
 }
