@@ -51,15 +51,15 @@ body{
 }
 
 #contactInfo img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     clear: right;
     margin-top: 5px;
     margin-right: 10px;
 }
 
 #contactInfo #gmail {
-    width: 60px;
+    width: 50px;
 }
 
 .navbar-brand p {
@@ -73,6 +73,16 @@ body{
 
 .lang, .proj, .job, .school, .footer {
     border: 2px solid black;  
+}
+
+.lang:hover, .proj:hover, .job:hover, .school:hover {
+    border: 4px solid gray;
+    box-shadow: 1px 1px gray, -0.5em 0 .4em gray;
+}
+
+#contactInfo img:hover{
+    box-shadow: 1px 1px gray, -0.5em 0 .4em gray;
+    border-radius: 25%;
 }
 
 .navbar-header{
@@ -89,7 +99,7 @@ body{
     left: 0;
     right: 0;
     width: 100%;
-	margin: auto;
+    margin: auto;
 }
 
 .footer > div {
