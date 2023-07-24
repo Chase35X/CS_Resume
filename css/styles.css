@@ -1,10 +1,10 @@
 body{
 	font-family: Georgia,Times,Times New Roman,serif; 
-    background-color: rgb(107, 138, 167);
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v996-009_1-kroir4dk.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=dcb55d36929676d81bb5f66b7e091fe8")
 }
 
 .navbar-header {
-    background-color: rgb(125, 160, 190);
+    background-color: rgb(249,249,249);
     height: 250px;
     width: 100%;
     margin-right: 0px;
@@ -65,7 +65,7 @@ body{
 }
 
 .lang, .proj, .job, .school, .footer {
-    background-color: rgb(213, 233, 250);
+    background-color: rgb(251,247,245);
 }
 
 .footer {
@@ -81,10 +81,12 @@ body{
 
 .section-title{
     font-size: 1.5em;
+    text-shadow: -2px 2px 2px rgba(108, 116, 128, 1);
 }
 
 .name {
-    color: white;
+    color: rgb(133, 130, 130);
+    font-family: 'Russo One', sans-serif;
 }
 
 .lang, .job, .footer {
@@ -102,13 +104,15 @@ body{
         font-size: 11px;
         float: left;
         text-align: center;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 
     .navbar-brand > img {
         width: 100px;
         height: 100px;
         margin-right: 15px;
-        margin-top: -10px;
+        margin-top: 0px;
         border-radius: 50%;
         -moz-box-shadow: 0px 6px 5px #ccc;
       -webkit-box-shadow: 0px 6px 5px #ccc;
