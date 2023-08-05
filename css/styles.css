@@ -25,7 +25,19 @@ body{
   -moz-border-radius:190px;
 }
 
-.lang {
+.row:not(#footerRow) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > [class*='col-']:not(#footerCol){
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* .lang {
     margin-left: 50px;
 }
 
@@ -39,7 +51,7 @@ body{
 
 .job {
     margin-left: 25px;
-}
+} */
 
 #contactInfo {
     margin-top: 15px;
@@ -108,7 +120,7 @@ body{
 
 .section-title{
     font-size: 1.5em;
-    text-shadow: -2px 2px 2px rgba(108, 116, 128, 1);
+    text-shadow: -2px 1px 2px rgb(133, 138, 145);
 }
 
 .name {
@@ -157,7 +169,7 @@ body{
 
     #contactInfo {
         font-size: 10px;
-        margin-top: 60px;
+        margin-top: 80px;
 
     }
 
@@ -175,6 +187,12 @@ body{
 
     #contactInfo #gmail {
         width: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        margin-right:-30px;
     }
 }
 
