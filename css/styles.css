@@ -190,11 +190,7 @@ body{
     }
 }
 
-@media (max-width: 768px) {
-    .intro {
-        margin-right:-30px;
-    }
-}
+
 
 
 
